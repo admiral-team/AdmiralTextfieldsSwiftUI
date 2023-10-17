@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E7E80A02ADEB0F700355B21 /* DoubleTextFieldSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E80822ADEB0F700355B21 /* DoubleTextFieldSwiftUIView.swift */; };
+		0E7E80A12ADEB0F700355B21 /* OTPTextFieldSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E80842ADEB0F700355B21 /* OTPTextFieldSwiftUIView.swift */; };
+		0E7E80A22ADEB0F700355B21 /* FeedbackInputSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E80862ADEB0F700355B21 /* FeedbackInputSwiftUIView.swift */; };
+		0E7E80A32ADEB0F700355B21 /* StandardTextFieldSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E80882ADEB0F700355B21 /* StandardTextFieldSwiftUIView.swift */; };
+		0E7E80A42ADEB0F700355B21 /* SecondaryInputNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E808B2ADEB0F700355B21 /* SecondaryInputNumberView.swift */; };
+		0E7E80A52ADEB0F700355B21 /* SecondaryInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E808C2ADEB0F700355B21 /* SecondaryInputViewModel.swift */; };
+		0E7E80A62ADEB0F700355B21 /* InputNumbersSwiftUIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E808D2ADEB0F700355B21 /* InputNumbersSwiftUIItem.swift */; };
+		0E7E80A72ADEB0F700355B21 /* NumberSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E808F2ADEB0F700355B21 /* NumberSwiftUIView.swift */; };
+		0E7E80A82ADEB0F700355B21 /* InputNumbersSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E80902ADEB0F700355B21 /* InputNumbersSwiftUIView.swift */; };
+		0E7E80A92ADEB0F700355B21 /* InputNumberDefaultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E80922ADEB0F700355B21 /* InputNumberDefaultViewModel.swift */; };
+		0E7E80AA2ADEB0F700355B21 /* InputNumberDefaultSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E80932ADEB0F700355B21 /* InputNumberDefaultSwiftUIView.swift */; };
+		0E7E80AB2ADEB0F700355B21 /* DefaultInputNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E80952ADEB0F700355B21 /* DefaultInputNumberView.swift */; };
+		0E7E80AC2ADEB0F700355B21 /* DefaultInputNumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E80962ADEB0F700355B21 /* DefaultInputNumberViewModel.swift */; };
+		0E7E80AD2ADEB0F700355B21 /* InputNumberSecondaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E80982ADEB0F700355B21 /* InputNumberSecondaryViewModel.swift */; };
+		0E7E80AE2ADEB0F700355B21 /* InputNumberSecondarySwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E80992ADEB0F700355B21 /* InputNumberSecondarySwiftUIView.swift */; };
+		0E7E80AF2ADEB0F700355B21 /* BankTextFieldSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E809B2ADEB0F700355B21 /* BankTextFieldSwiftUIView.swift */; };
+		0E7E80B02ADEB0F700355B21 /* PinCodeTextFieldSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E809D2ADEB0F700355B21 /* PinCodeTextFieldSwiftUIView.swift */; };
+		0E7E80B12ADEB0F700355B21 /* InputRangeTextFieldSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E809F2ADEB0F700355B21 /* InputRangeTextFieldSwiftUIView.swift */; };
+		0E7E80B52ADEC3DF00355B21 /* AdmiralTabsSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0E7E80B42ADEC3DF00355B21 /* AdmiralTabsSwiftUI */; };
+		0E7E80B72ADEC8C200355B21 /* UIApplication+EndEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E80B62ADEC8C200355B21 /* UIApplication+EndEditing.swift */; };
+		0E7E80BB2ADF499800355B21 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E80BA2ADF499800355B21 /* Assets.swift */; };
+		0EA457E62ADE99FF00D16FD6 /* AdmiralTextfieldsViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA457E52ADE99FF00D16FD6 /* AdmiralTextfieldsViewerApp.swift */; };
+		0EA457EA2ADE9A0100D16FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA457E92ADE9A0100D16FD6 /* Assets.xcassets */; };
+		0EA457ED2ADE9A0100D16FD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA457EC2ADE9A0100D16FD6 /* Preview Assets.xcassets */; };
+		0EA457F72ADE9A5200D16FD6 /* AdmiralTextfieldsSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0EA457F62ADE9A5200D16FD6 /* AdmiralTextfieldsSwiftUI */; };
+		0EA457F92ADE9A8800D16FD6 /* TextFieldsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA457F82ADE9A8800D16FD6 /* TextFieldsSwiftUIView.swift */; };
+		0EA457FB2ADE9A9800D16FD6 /* TextFieldsSwiftUIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA457FA2ADE9A9800D16FD6 /* TextFieldsSwiftUIItem.swift */; };
+		0EA457FD2ADE9AA500D16FD6 /* SwiftUIContentViewScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA457FC2ADE9AA500D16FD6 /* SwiftUIContentViewScheme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E7E80822ADEB0F700355B21 /* DoubleTextFieldSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleTextFieldSwiftUIView.swift; sourceTree = "<group>"; };
+		0E7E80842ADEB0F700355B21 /* OTPTextFieldSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPTextFieldSwiftUIView.swift; sourceTree = "<group>"; };
+		0E7E80862ADEB0F700355B21 /* FeedbackInputSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackInputSwiftUIView.swift; sourceTree = "<group>"; };
+		0E7E80882ADEB0F700355B21 /* StandardTextFieldSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardTextFieldSwiftUIView.swift; sourceTree = "<group>"; };
+		0E7E808B2ADEB0F700355B21 /* SecondaryInputNumberView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryInputNumberView.swift; sourceTree = "<group>"; };
+		0E7E808C2ADEB0F700355B21 /* SecondaryInputViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryInputViewModel.swift; sourceTree = "<group>"; };
+		0E7E808D2ADEB0F700355B21 /* InputNumbersSwiftUIItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputNumbersSwiftUIItem.swift; sourceTree = "<group>"; };
+		0E7E808F2ADEB0F700355B21 /* NumberSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberSwiftUIView.swift; sourceTree = "<group>"; };
+		0E7E80902ADEB0F700355B21 /* InputNumbersSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputNumbersSwiftUIView.swift; sourceTree = "<group>"; };
+		0E7E80922ADEB0F700355B21 /* InputNumberDefaultViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputNumberDefaultViewModel.swift; sourceTree = "<group>"; };
+		0E7E80932ADEB0F700355B21 /* InputNumberDefaultSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputNumberDefaultSwiftUIView.swift; sourceTree = "<group>"; };
+		0E7E80952ADEB0F700355B21 /* DefaultInputNumberView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultInputNumberView.swift; sourceTree = "<group>"; };
+		0E7E80962ADEB0F700355B21 /* DefaultInputNumberViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultInputNumberViewModel.swift; sourceTree = "<group>"; };
+		0E7E80982ADEB0F700355B21 /* InputNumberSecondaryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputNumberSecondaryViewModel.swift; sourceTree = "<group>"; };
+		0E7E80992ADEB0F700355B21 /* InputNumberSecondarySwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputNumberSecondarySwiftUIView.swift; sourceTree = "<group>"; };
+		0E7E809B2ADEB0F700355B21 /* BankTextFieldSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankTextFieldSwiftUIView.swift; sourceTree = "<group>"; };
+		0E7E809D2ADEB0F700355B21 /* PinCodeTextFieldSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinCodeTextFieldSwiftUIView.swift; sourceTree = "<group>"; };
+		0E7E809F2ADEB0F700355B21 /* InputRangeTextFieldSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputRangeTextFieldSwiftUIView.swift; sourceTree = "<group>"; };
+		0E7E80B62ADEC8C200355B21 /* UIApplication+EndEditing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+EndEditing.swift"; sourceTree = "<group>"; };
+		0E7E80BA2ADF499800355B21 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		0EA457E22ADE99FF00D16FD6 /* AdmiralTextfieldsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdmiralTextfieldsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA457E52ADE99FF00D16FD6 /* AdmiralTextfieldsViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmiralTextfieldsViewerApp.swift; sourceTree = "<group>"; };
+		0EA457E92ADE9A0100D16FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EA457EC2ADE9A0100D16FD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0EA457F42ADE9A4700D16FD6 /* AdmiralTextfieldsSwiftUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AdmiralTextfieldsSwiftUI; path = ..; sourceTree = "<group>"; };
+		0EA457F82ADE9A8800D16FD6 /* TextFieldsSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsSwiftUIView.swift; sourceTree = "<group>"; };
+		0EA457FA2ADE9A9800D16FD6 /* TextFieldsSwiftUIItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsSwiftUIItem.swift; sourceTree = "<group>"; };
+		0EA457FC2ADE9AA500D16FD6 /* SwiftUIContentViewScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContentViewScheme.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EA457DF2ADE99FF00D16FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA457F72ADE9A5200D16FD6 /* AdmiralTextfieldsSwiftUI in Frameworks */,
+				0E7E80B52ADEC3DF00355B21 /* AdmiralTabsSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E7E80802ADEB0F700355B21 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				0E7E80812ADEB0F700355B21 /* DoubleTextField */,
+				0E7E80832ADEB0F700355B21 /* OTP */,
+				0E7E80852ADEB0F700355B21 /* FeedbackInput */,
+				0E7E80872ADEB0F700355B21 /* Standard */,
+				0E7E80892ADEB0F700355B21 /* Number */,
+				0E7E809A2ADEB0F700355B21 /* BankTextField */,
+				0E7E809C2ADEB0F700355B21 /* PinCodeTextFieldView */,
+				0E7E809E2ADEB0F700355B21 /* InputRangeTextField */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		0E7E80812ADEB0F700355B21 /* DoubleTextField */ = {
+			isa = PBXGroup;
+			children = (
+				0E7E80822ADEB0F700355B21 /* DoubleTextFieldSwiftUIView.swift */,
+			);
+			path = DoubleTextField;
+			sourceTree = "<group>";
+		};
+		0E7E80832ADEB0F700355B21 /* OTP */ = {
+			isa = PBXGroup;
+			children = (
+				0E7E80842ADEB0F700355B21 /* OTPTextFieldSwiftUIView.swift */,
+			);
+			path = OTP;
+			sourceTree = "<group>";
+		};
+		0E7E80852ADEB0F700355B21 /* FeedbackInput */ = {
+			isa = PBXGroup;
+			children = (
+				0E7E80862ADEB0F700355B21 /* FeedbackInputSwiftUIView.swift */,
+			);
+			path = FeedbackInput;
+			sourceTree = "<group>";
+		};
+		0E7E80872ADEB0F700355B21 /* Standard */ = {
+			isa = PBXGroup;
+			children = (
+				0E7E80882ADEB0F700355B21 /* StandardTextFieldSwiftUIView.swift */,
+			);
+			path = Standard;
+			sourceTree = "<group>";
+		};
+		0E7E80892ADEB0F700355B21 /* Number */ = {
+			isa = PBXGroup;
+			children = (
+				0E7E808A2ADEB0F700355B21 /* SecondaryInputNumber */,
+				0E7E808D2ADEB0F700355B21 /* InputNumbersSwiftUIItem.swift */,
+				0E7E808E2ADEB0F700355B21 /* Input */,
+				0E7E80902ADEB0F700355B21 /* InputNumbersSwiftUIView.swift */,
+				0E7E80912ADEB0F700355B21 /* Default */,
+				0E7E80942ADEB0F700355B21 /* DefaultInputNumber */,
+				0E7E80972ADEB0F700355B21 /* Secondary */,
+			);
+			path = Number;
+			sourceTree = "<group>";
+		};
+		0E7E808A2ADEB0F700355B21 /* SecondaryInputNumber */ = {
+			isa = PBXGroup;
+			children = (
+				0E7E808B2ADEB0F700355B21 /* SecondaryInputNumberView.swift */,
+				0E7E808C2ADEB0F700355B21 /* SecondaryInputViewModel.swift */,
+			);
+			path = SecondaryInputNumber;
+			sourceTree = "<group>";
+		};
+		0E7E808E2ADEB0F700355B21 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				0E7E808F2ADEB0F700355B21 /* NumberSwiftUIView.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		0E7E80912ADEB0F700355B21 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				0E7E80922ADEB0F700355B21 /* InputNumberDefaultViewModel.swift */,
+				0E7E80932ADEB0F700355B21 /* InputNumberDefaultSwiftUIView.swift */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		0E7E80942ADEB0F700355B21 /* DefaultInputNumber */ = {
+			isa = PBXGroup;
+			children = (
+				0E7E80952ADEB0F700355B21 /* DefaultInputNumberView.swift */,
+				0E7E80962ADEB0F700355B21 /* DefaultInputNumberViewModel.swift */,
+			);
+			path = DefaultInputNumber;
+			sourceTree = "<group>";
+		};
+		0E7E80972ADEB0F700355B21 /* Secondary */ = {
+			isa = PBXGroup;
+			children = (
+				0E7E80982ADEB0F700355B21 /* InputNumberSecondaryViewModel.swift */,
+				0E7E80992ADEB0F700355B21 /* InputNumberSecondarySwiftUIView.swift */,
+			);
+			path = Secondary;
+			sourceTree = "<group>";
+		};
+		0E7E809A2ADEB0F700355B21 /* BankTextField */ = {
+			isa = PBXGroup;
+			children = (
+				0E7E809B2ADEB0F700355B21 /* BankTextFieldSwiftUIView.swift */,
+			);
+			path = BankTextField;
+			sourceTree = "<group>";
+		};
+		0E7E809C2ADEB0F700355B21 /* PinCodeTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				0E7E809D2ADEB0F700355B21 /* PinCodeTextFieldSwiftUIView.swift */,
+			);
+			path = PinCodeTextFieldView;
+			sourceTree = "<group>";
+		};
+		0E7E809E2ADEB0F700355B21 /* InputRangeTextField */ = {
+			isa = PBXGroup;
+			children = (
+				0E7E809F2ADEB0F700355B21 /* InputRangeTextFieldSwiftUIView.swift */,
+			);
+			path = InputRangeTextField;
+			sourceTree = "<group>";
+		};
+		0E7E80B82ADF497C00355B21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E7E80B92ADF499000355B21 /* Generated */,
+				0EA457E92ADE9A0100D16FD6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0E7E80B92ADF499000355B21 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				0E7E80BA2ADF499800355B21 /* Assets.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		0EA457D92ADE99FF00D16FD6 = {
+			isa = PBXGroup;
+			children = (
+				0EA457F32ADE9A4700D16FD6 /* Packages */,
+				0EA457E42ADE99FF00D16FD6 /* AdmiralTextfieldsViewer */,
+				0EA457E32ADE99FF00D16FD6 /* Products */,
+				0EA457F52ADE9A5200D16FD6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0EA457E32ADE99FF00D16FD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EA457E22ADE99FF00D16FD6 /* AdmiralTextfieldsViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EA457E42ADE99FF00D16FD6 /* AdmiralTextfieldsViewer */ = {
+			isa = PBXGroup;
+			children = (
+				0E7E80B82ADF497C00355B21 /* Resources */,
+				0E7E80802ADEB0F700355B21 /* TextField */,
+				0EA457E52ADE99FF00D16FD6 /* AdmiralTextfieldsViewerApp.swift */,
+				0EA457EB2ADE9A0100D16FD6 /* Preview Content */,
+				0EA457F82ADE9A8800D16FD6 /* TextFieldsSwiftUIView.swift */,
+				0EA457FA2ADE9A9800D16FD6 /* TextFieldsSwiftUIItem.swift */,
+				0EA457FC2ADE9AA500D16FD6 /* SwiftUIContentViewScheme.swift */,
+				0E7E80B62ADEC8C200355B21 /* UIApplication+EndEditing.swift */,
+			);
+			path = AdmiralTextfieldsViewer;
+			sourceTree = "<group>";
+		};
+		0EA457EB2ADE9A0100D16FD6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0EA457EC2ADE9A0100D16FD6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0EA457F32ADE9A4700D16FD6 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				0EA457F42ADE9A4700D16FD6 /* AdmiralTextfieldsSwiftUI */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		0EA457F52ADE9A5200D16FD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EA457E12ADE99FF00D16FD6 /* AdmiralTextfieldsViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA457F02ADE9A0100D16FD6 /* Build configuration list for PBXNativeTarget "AdmiralTextfieldsViewer" */;
+			buildPhases = (
+				0EA457DE2ADE99FF00D16FD6 /* Sources */,
+				0EA457DF2ADE99FF00D16FD6 /* Frameworks */,
+				0EA457E02ADE99FF00D16FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdmiralTextfieldsViewer;
+			packageProductDependencies = (
+				0EA457F62ADE9A5200D16FD6 /* AdmiralTextfieldsSwiftUI */,
+				0E7E80B42ADEC3DF00355B21 /* AdmiralTabsSwiftUI */,
+			);
+			productName = AdmiralTextfieldsViewer;
+			productReference = 0EA457E22ADE99FF00D16FD6 /* AdmiralTextfieldsViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EA457DA2ADE99FF00D16FD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0EA457E12ADE99FF00D16FD6 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0EA457DD2ADE99FF00D16FD6 /* Build configuration list for PBXProject "AdmiralTextfieldsViewer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EA457D92ADE99FF00D16FD6;
+			packageReferences = (
+				0E7E80B32ADEC3DF00355B21 /* XCRemoteSwiftPackageReference "AdmiralTabsSwiftUI" */,
+			);
+			productRefGroup = 0EA457E32ADE99FF00D16FD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EA457E12ADE99FF00D16FD6 /* AdmiralTextfieldsViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EA457E02ADE99FF00D16FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA457ED2ADE9A0100D16FD6 /* Preview Assets.xcassets in Resources */,
+				0EA457EA2ADE9A0100D16FD6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EA457DE2ADE99FF00D16FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E7E80AF2ADEB0F700355B21 /* BankTextFieldSwiftUIView.swift in Sources */,
+				0EA457FB2ADE9A9800D16FD6 /* TextFieldsSwiftUIItem.swift in Sources */,
+				0E7E80BB2ADF499800355B21 /* Assets.swift in Sources */,
+				0EA457F92ADE9A8800D16FD6 /* TextFieldsSwiftUIView.swift in Sources */,
+				0E7E80AA2ADEB0F700355B21 /* InputNumberDefaultSwiftUIView.swift in Sources */,
+				0E7E80B12ADEB0F700355B21 /* InputRangeTextFieldSwiftUIView.swift in Sources */,
+				0EA457FD2ADE9AA500D16FD6 /* SwiftUIContentViewScheme.swift in Sources */,
+				0E7E80A72ADEB0F700355B21 /* NumberSwiftUIView.swift in Sources */,
+				0E7E80AD2ADEB0F700355B21 /* InputNumberSecondaryViewModel.swift in Sources */,
+				0E7E80AC2ADEB0F700355B21 /* DefaultInputNumberViewModel.swift in Sources */,
+				0E7E80A32ADEB0F700355B21 /* StandardTextFieldSwiftUIView.swift in Sources */,
+				0E7E80A42ADEB0F700355B21 /* SecondaryInputNumberView.swift in Sources */,
+				0E7E80A62ADEB0F700355B21 /* InputNumbersSwiftUIItem.swift in Sources */,
+				0E7E80A52ADEB0F700355B21 /* SecondaryInputViewModel.swift in Sources */,
+				0E7E80A92ADEB0F700355B21 /* InputNumberDefaultViewModel.swift in Sources */,
+				0E7E80A22ADEB0F700355B21 /* FeedbackInputSwiftUIView.swift in Sources */,
+				0E7E80A82ADEB0F700355B21 /* InputNumbersSwiftUIView.swift in Sources */,
+				0E7E80B72ADEC8C200355B21 /* UIApplication+EndEditing.swift in Sources */,
+				0E7E80AE2ADEB0F700355B21 /* InputNumberSecondarySwiftUIView.swift in Sources */,
+				0E7E80A02ADEB0F700355B21 /* DoubleTextFieldSwiftUIView.swift in Sources */,
+				0E7E80A12ADEB0F700355B21 /* OTPTextFieldSwiftUIView.swift in Sources */,
+				0E7E80AB2ADEB0F700355B21 /* DefaultInputNumberView.swift in Sources */,
+				0EA457E62ADE99FF00D16FD6 /* AdmiralTextfieldsViewerApp.swift in Sources */,
+				0E7E80B02ADEB0F700355B21 /* PinCodeTextFieldSwiftUIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0EA457EE2ADE9A0100D16FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EA457EF2ADE9A0100D16FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EA457F12ADE9A0100D16FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdmiralTextfieldsViewer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdmitalTeam.AdmiralTextfieldsViewer.AdmiralTextfieldsViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EA457F22ADE9A0100D16FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdmiralTextfieldsViewer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdmitalTeam.AdmiralTextfieldsViewer.AdmiralTextfieldsViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EA457DD2ADE99FF00D16FD6 /* Build configuration list for PBXProject "AdmiralTextfieldsViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA457EE2ADE9A0100D16FD6 /* Debug */,
+				0EA457EF2ADE9A0100D16FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EA457F02ADE9A0100D16FD6 /* Build configuration list for PBXNativeTarget "AdmiralTextfieldsViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA457F12ADE9A0100D16FD6 /* Debug */,
+				0EA457F22ADE9A0100D16FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0E7E80B32ADEC3DF00355B21 /* XCRemoteSwiftPackageReference "AdmiralTabsSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/admiral-team/AdmiralTabsSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0E7E80B42ADEC3DF00355B21 /* AdmiralTabsSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E7E80B32ADEC3DF00355B21 /* XCRemoteSwiftPackageReference "AdmiralTabsSwiftUI" */;
+			productName = AdmiralTabsSwiftUI;
+		};
+		0EA457F62ADE9A5200D16FD6 /* AdmiralTextfieldsSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AdmiralTextfieldsSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0EA457DA2ADE99FF00D16FD6 /* Project object */;
+}
