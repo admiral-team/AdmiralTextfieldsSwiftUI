@@ -1,0 +1,9 @@
+xcassets:
+    inputs: AdmiralTextfieldsViewer/AdmiralTextfieldsViewer/Resources/Assets.xcassets
+    outputs:
+        templatePath: Templates/Images.stencil
+        output: AdmiralTextfieldsViewer/AdmiralTextfieldsViewer/Resources/Generated/Assets.swift
+        params:
+            publicAccess: 1
+            allValues: 1
+            enumName: Assets

@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AdmiralCore",
+        "repositoryURL": "git@github.com:admiral-team/AdmiralCore.git",
+        "state": {
+          "branch": null,
+          "revision": "a4cd88e292744ff09a01be44599f0528f6dd2753",
+          "version": "0.0.2"
+        }
+      },
+      {
+        "package": "AdmiralTabsSwiftUI",
+        "repositoryURL": "https://github.com/admiral-team/AdmiralTabsSwiftUI",
+        "state": {
+          "branch": null,
+          "revision": "d72f3730504e95efb2992587fd2482f32e79724c",
+          "version": "0.0.2"
+        }
+      },
+      {
+        "package": "AdmiralTheme",
+        "repositoryURL": "git@github.com:admiral-team/AdmiralTheme.git",
+        "state": {
+          "branch": null,
+          "revision": "3f157719673a9cd5d58d2e21b8b9e4fa41b1b3ba",
+          "version": "0.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

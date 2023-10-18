@@ -1,0 +1,9 @@
+xcassets:
+    inputs: Sources/TextFields/Resources/Images.xcassets
+    outputs:
+        templatePath: Templates/Images.stencil
+        output: Sources/TextFields/Assets/Images.swift
+        params:
+            publicAccess: 1
+            allValues: 1
+            enumName: SymbolAssets
